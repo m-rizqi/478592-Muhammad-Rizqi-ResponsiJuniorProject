@@ -149,6 +149,7 @@
             btnInsert.TabIndex = 11;
             btnInsert.Text = "Insert";
             btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.Click += btnInsert_Click;
             // 
             // btnEdit
             // 
@@ -158,6 +159,7 @@
             btnEdit.TabIndex = 12;
             btnEdit.Text = "Edit";
             btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDelete
             // 
@@ -167,6 +169,7 @@
             btnDelete.TabIndex = 13;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // dgvList
             // 
@@ -176,6 +179,7 @@
             dgvList.RowTemplate.Height = 25;
             dgvList.Size = new Size(776, 258);
             dgvList.TabIndex = 14;
+            dgvList.CellContentClick += dgvList_CellContentClick;
             // 
             // Form1
             // 
@@ -199,6 +203,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvList).EndInit();
             ResumeLayout(false);
             PerformLayout();

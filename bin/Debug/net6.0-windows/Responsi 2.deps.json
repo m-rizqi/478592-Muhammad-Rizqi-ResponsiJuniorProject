@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "Responsi 2/1.0.0": {
+        "dependencies": {
+          "Npgsql": "8.0.1"
+        },
+        "runtime": {
+          "Responsi 2.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -50,14 +58,7 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
-        "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Text.Encodings.Web/8.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -92,6 +93,11 @@
     }
   },
   "libraries": {
+    "Responsi 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,

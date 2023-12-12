@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "gUoU4bHhsZZ9cSrJ2HWvx6pX0CJqsDh7SrbozlqYfoM7FxyQEMymZlBwj+LokJLmVKJYd25VtjghktzI9+ZspA==",
+  "dgSpecHash": "2h6J9fHDegEIIOOvPCtu5MW5cWSObiXeIk8tdgg4EhwxMFG1GTl4lf5JFiXj/IFt3FJvF2hHH2c7FqlSzCJmyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rizqi\\JunPro\\Responsi 2\\Responsi 2\\Responsi 2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rizqi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\rizqi\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
